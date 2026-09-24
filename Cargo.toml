@@ -1,0 +1,24 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/forge-core",
+  "crates/forge-evidence",
+  "crates/forge-collectors",
+  "crates/forge-platform",
+  "crates/forge-storage",
+  "crates/forge-provenance",
+  "crates/forge-analysis",
+  "crates/forge-detection",
+  "crates/forge-graph",
+  "crates/forge-security",
+  "crates/forge-plugin",
+  "crates/forge-runtime",
+  "crates/forge-lexer",
+  "crates/forge-parser",
+  "crates/forge-vm",
+  "crates/forge-cli",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
